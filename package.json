@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "lint": "lint .",
-    "build": "webpack --mode development"
+    "lint": "eslint .",
+    "build": "webpack --mode production"
   },
   "repository": {
     "type": "git",

@@ -12,7 +12,7 @@ test('error throw name', ()=>{
     expect(()=> {new Character.prototype.constructor('a', 'Daemon')}).toThrowError(result)
 })
 
-test('error thow type', ()=> {
+test('error throw type', ()=> {
     const result = new Error('Wrong character type');
 
     expect(()=> new Character.prototype.constructor('Azmodan', 'Angel')).toThrowError(result)
