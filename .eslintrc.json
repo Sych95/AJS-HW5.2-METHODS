@@ -2,7 +2,8 @@
     "env": {
         "browser": true,
         "es2021": true,
-        "node": true
+        "node": true,
+        "jest": true
     },
     "extends": [
         "airbnb-base"
@@ -12,6 +13,7 @@
         "sourceType": "module"
     },
     "rules": {
-        "jest": true
+        "no-unused-vars": "warn",
+        "import/prefer-default-export": "warn"
     }
 }
