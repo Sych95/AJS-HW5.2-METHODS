@@ -1,0 +1,41 @@
+{
+  "name": "ajs-hw5.2-methods",
+  "version": "1.0.0",
+  "description": "class methods",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "lint .",
+    "build": "webpack --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sych95/AJS-HW5.2-METHODS.git"
+  },
+  "keywords": [
+    "methods"
+  ],
+  "author": "Sych95",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sych95/AJS-HW5.2-METHODS/issues"
+  },
+  "homepage": "https://github.com/Sych95/AJS-HW5.2-METHODS#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.16.0",
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.0",
+    "babel-loader": "^8.2.3",
+    "eslint": "^8.2.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.3",
+    "html-webpack-plugin": "^5.5.0",
+    "jest": "^27.3.1",
+    "nodemon-webpack-plugin": "^4.5.2",
+    "webpack": "^5.63.0",
+    "webpack-cli": "^4.9.1"
+  },
+  "dependencies": {
+    "core-js": "^3.19.1"
+  }
+}
